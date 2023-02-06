@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.form{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(145, 132, 132);
+  padding: 5px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+  backdrop-filter: blur(10px);
+}
+
+.input{
+height: 35px;
+border-radius: 30px;
+border: none;
+margin: 5px;
+padding: 0 25px;
+display: flex;
+width: 100%;
+outline: none;
+}
+
+.btn{
+  background: #222;
+  border: none;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: centr;
+  outline: none;
+  border-radius: 5px;
+  color: aliceblue;
+}
+
+
+.messages{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.messages > li{
+  padding: 5px;
+}
+.messages > li > span{
+  font-weight: 500;
+}
